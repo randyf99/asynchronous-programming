@@ -1,3 +1,8 @@
+'use strict';
+
+// Map is great if you want to apply a transformation 
+// to each item in an array, and collect tha results 
+// into another array
 function getStockSymbols(stocks) {
   // The function is the projection function
   return stocks.map(function(stock) {
